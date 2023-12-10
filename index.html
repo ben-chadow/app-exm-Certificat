@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amine</title>
+    <style>
+        *{
+            margin: 0%;
+        }
+        header{
+            height: 70px;
+            background-image: linear-gradient(45deg ,red 10%, Blue 90%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* width: 100%;
+            position: fixed; */
+        }
+        header h1{
+            color: black;
+            background-color: white;
+            font-size: 20px;
+            padding: 10px;
+            font-weight: 900;
+            border-radius: 20px;
+            border: 2px solid black;
+            text-align: center;
+            width: 20%;
+        }
+        header h1:hover{
+            background-color: black;
+            color: white;
+        }
+        main{
+            width: 80%;
+            margin: 0 auto;
+            background-color: beige;
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        main .qwe{
+            width: 100%;
+            margin: 0 auto;
+            background-image: url(img2.jpeg);
+            
+        }
+        main .qwe h2{
+            text-align: center;
+            width: 30%;
+            border: 2px black solid;
+            border-radius: 20px;
+            background-color: #e5af8096;
+            padding: 20px;
+            margin: 5px auto;
+        }
+        main .qwe:hover{
+            /* opacity: 0.4; */
+        }
+        main article{
+            width: calc(100% / 3 - (8px));
+            margin-right: 8px;
+            margin-top: 8px;
+        }
+        article h2{
+            box-sizing: border-box;
+            color: blueviolet;
+            font-size: 20px;
+            font-weight: bolder;
+            border: 4px double blue;
+            text-align: center;
+        }
+        article img{
+            box-sizing: border-box;
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border: 4px double blue;
+        }
+        .box:hover{
+            box-shadow: 5px 5px 10px ;
+        }
+        @media (max-width: 720px){
+            main article{
+            width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>amine benykou</h1>
+    </header>
+    
+    <main>
+        <div class="qwe" dir="rtl">
+            <h2>قسم صور راءعة</h2>
+        </div>
+            <article class="box" dir="rtl">
+                <h2>صور دينية </h2>
+                <img src="images1.jpeg" alt="gggff">
+            </article>
+            <article class="box" dir="rtl">
+                <h2>صور طبية</h2>
+                <img src="images2.jpeg" alt="gggff">
+            </article>
+            <article class="box" dir="rtl">
+                <h2>صور فضاء</h2>
+                <img src="images3.jpeg" alt="gggff">
+            </article>
+            <article class="box" dir="rtl">
+                <h2>صور جامعية</h2>
+                <img src="images4.jpeg" alt="gggff">
+            </article>
+            <article class="box" dir="rtl">
+                <h2>صور أنيم</h2>
+                <img src="images5.jpeg" alt="gggff">
+            </article>
+            <article class="box" dir="rtl">
+                <h2>صور مغرب</h2>
+                <img src="images6.jpg" alt="gggff">
+            </article>
+    </main>
+</body>
+</html>
